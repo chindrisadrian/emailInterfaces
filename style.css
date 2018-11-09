@@ -1,0 +1,44 @@
+@import "email-interface-palette.css";
+body {
+	background-color: #f3f9ff!important;
+}
+.container {
+	box-shadow: 0px 0px 100px rgba(68, 68, 68, 0.55);
+}
+
+.row {
+}
+
+.fas, far {
+	padding: 0 8px;
+	color: var(--grey);
+}
+
+.actions {
+	background-color: #e9edf5;
+	box-shadow: inset -15px 0px 70px -5px rgba(68, 68, 68, 0.13);
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.actions div {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.actions div span {
+	margin: 0 15px;
+}
+.actions .active {
+	box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.35);
+	background-color: var(--alice-blue);
+}
+.actions .active i {
+	color: var(--grey-active);
+}
+
+.emails {
+	background-color: var(--alice-blue);
+	box-shadow: inset -15px 0px 70px -5px rgba(68, 68, 68, 0.13);
+}
+.email-content {
+	background-color: var(--white);
+}
