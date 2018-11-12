@@ -2,43 +2,100 @@
 body {
 	background-color: #f3f9ff!important;
 }
-.container {
-	box-shadow: 0px 0px 100px rgba(68, 68, 68, 0.55);
-}
-
-.row {
-}
-
-.fas, far {
-	padding: 0 8px;
+* {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
 	color: var(--grey);
 }
 
+
+.container {
+	box-shadow: 0px 0px 100px rgba(147, 155, 176, 0.55);
+}
+
+.fas {
+	padding: 0 8px;
+	color: var(--grey);
+}
+/* actions */
 .actions {
 	background-color: #e9edf5;
-	box-shadow: inset -15px 0px 70px -5px rgba(68, 68, 68, 0.13);
 	padding-left: 0 !important;
 	padding-right: 0 !important;
+	-webkit-box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
+	-moz-box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
+	box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
 }
-.actions div {
-	padding-top: 30px;
-	padding-bottom: 30px;
+.actions .title {
+	height: 5rem;
+	-webkit-box-shadow: 3px 3px 24px 0 rgba(37, 203, 148, 0.64);
+	-moz-box-shadow: 3px 3px 24px 0 rgba(37, 203, 148, 0.64);
+	box-shadow: 3px 3px 24px 0 rgba(37, 203, 148, 0.64);
+	background-color: var(--shamrock);
+	color: #ffffff;
+	z-index: 99;
 }
-.actions div span {
+.actions a {
+	height: 5rem;
+	text-decoration: none;
+}
+.actions a:hover {
+	text-decoration: none;
+}
+.actions a span {
 	margin: 0 15px;
 }
 .actions .active {
-	box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.35);
+	box-shadow: 1rem 0rem 2rem rgba(0,0,0,.175);
 	background-color: var(--alice-blue);
+	color: var(--grey);
+	
 }
 .actions .active i {
 	color: var(--grey-active);
 }
 
+
+/* emails */
 .emails {
 	background-color: var(--alice-blue);
-	box-shadow: inset -15px 0px 70px -5px rgba(68, 68, 68, 0.13);
+	-webkit-box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
+	-moz-box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
+	box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
 }
+.emails .title{
+	padding: 0 1.5rem 0 1.5rem;
+	height: 5rem;
+}
+.emails .emails-items .item {
+	height: 10rem;
+}
+
+
+
+/* emails-content */
 .email-content {
 	background-color: var(--white);
+}
+
+.scrollbox {
+	overflow: auto;
+	height: 40rem;
+	max-height: 40rem;
+	background: /* Shadow covers */
+		linear-gradient(#f6f9fe 30%, rgba(255, 255, 255, 0)),
+		linear-gradient(rgba(255, 255, 255, 0), #f6f9fe 70%) 0 100%,
+			/* Shadows */
+		radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)),
+		radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
+	background: /* Shadow covers */
+		linear-gradient(#f6f9fe 30%, rgba(255, 255, 255, 0)),
+		linear-gradient(rgba(255, 255, 255, 0), #f6f9fe 70%) 0 100%, /* Shadows */
+		radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)),
+		radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+	/* Opera doesn't support this in the shorthand */
+	background-attachment: local, local, scroll, scroll;
 }

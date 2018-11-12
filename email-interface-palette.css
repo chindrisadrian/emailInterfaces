@@ -10,3 +10,6 @@
     --grey-active: #594d70;
     --white: #ffffff;
 }
+.text-success-2 {
+    color: var(--shamrock)!important;
+}
