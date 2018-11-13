@@ -59,17 +59,37 @@ body {
 
 /* emails */
 .emails {
+	padding: 0 3rem 0 3rem !important;
+	
 	background-color: var(--alice-blue);
 	-webkit-box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
 	-moz-box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
 	box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
 }
 .emails .title{
-	padding: 0 1.5rem 0 1.5rem;
+	/*padding: 0 1.5rem 0 1.5rem;*/
 	height: 5rem;
 }
 .emails .emails-items .item {
+	padding: 1.5rem 0 1.5rem 0;
 	height: 10rem;
+	max-height: 10rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-height: 1.8;
+}
+.emails .emails-items .item .name {
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: var(--grey-active);
+}
+.emails .emails-items .item .subject {
+	color: var(--grey-active);
+}
+.emails .emails-items .item .message {
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 
@@ -78,24 +98,42 @@ body {
 .email-content {
 	background-color: var(--white);
 }
+.email-content > div {
+	height: 5rem;
+}
+.avatar img {
+	height: 50px;
+	border-radius: 50% !important;
+	box-shadow: 0rem 0rem 1rem 8px var(--link-water);
+}
 
-.scrollbox {
+
+
+
+
+
+
+
+
+
+
+.scrollbar {
 	overflow: auto;
 	height: 40rem;
 	max-height: 40rem;
-	background: /* Shadow covers */
-		linear-gradient(#f6f9fe 30%, rgba(255, 255, 255, 0)),
-		linear-gradient(rgba(255, 255, 255, 0), #f6f9fe 70%) 0 100%,
-			/* Shadows */
-		radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)),
-		radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
-	background: /* Shadow covers */
-		linear-gradient(#f6f9fe 30%, rgba(255, 255, 255, 0)),
-		linear-gradient(rgba(255, 255, 255, 0), #f6f9fe 70%) 0 100%, /* Shadows */
-		radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)),
-		radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
+	background: linear-gradient(#f6f9fe 30%, rgba(255, 255, 255, 0)),
+	linear-gradient(rgba(255, 255, 255, 0), #f6f9fe 70%) 0 100%,
+	radial-gradient(50% 0 at farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)),
+	radial-gradient(50% 100% farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
+	background:linear-gradient(#f6f9fe 30%, rgba(255, 255, 255, 0)),
+	linear-gradient(rgba(255, 255, 255, 0), #f6f9fe 70%) 0 100%,
+	radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)),
+	radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
 	background-repeat: no-repeat;
 	background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
 	/* Opera doesn't support this in the shorthand */
 	background-attachment: local, local, scroll, scroll;
+}
+.scrollbar::-webkit-scrollbar {
+	display: none;
 }
