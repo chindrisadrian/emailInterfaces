@@ -56,55 +56,83 @@ body {
 	color: var(--grey-active);
 }
 
-
 /* emails */
 .emails {
-	padding: 0 3rem 0 3rem !important;
-	
+	padding: 0 0 0 0 !important;
 	background-color: var(--alice-blue);
 	-webkit-box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
 	-moz-box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
 	box-shadow: inset -61px 0px 114px -103px rgba(0,0,0,1);
 }
 .emails .title{
-	/*padding: 0 1.5rem 0 1.5rem;*/
+	padding: 0 1.5rem 0 1.5rem;
 	height: 5rem;
 }
 .emails .emails-items .item {
-	padding: 1.5rem 0 1.5rem 0;
+	padding: 1.5rem; /*0 1.5rem 0;*/
 	height: 10rem;
 	max-height: 10rem;
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 2;
-	line-height: 1.8;
 }
-.emails .emails-items .item .name {
-	font-size: 1.3rem;
-	font-weight: bold;
-	color: var(--grey-active);
-}
+
+.emails .emails-items .item .name,
 .emails .emails-items .item .subject {
 	color: var(--grey-active);
 }
 .emails .emails-items .item .message {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
 	overflow: hidden;
-	text-overflow: ellipsis;
+	height: 3.3rem;
 }
+
+.emails .emails-items .item.active {
+	box-shadow: 1rem 0rem 2rem rgba(0,0,0,.175);
+	background-color: var(--white);
+	color: var(--grey);
+	
+}
+
+
 
 
 
 /* emails-content */
 .email-content {
+	padding: 1.5rem 2.5rem !important;
 	background-color: var(--white);
 }
-.email-content > div {
-	height: 5rem;
+
+.email-content .email-actions a {
+	padding: 0 0.7rem;
 }
+.email-content .email-actions,
+.email-content .subject {
+	padding-top: 30px;
+}
+.email-content form input,
+.email-content form button {
+	background-color: #eff1fb;
+	border-radius: 20px !important;
+}
+.email-content .email-details {
+	padding-top: 20px;
+	font-weight: 100
+}
+.email-content .email-message {
+	padding: 50px 0 40px 0;
+	line-height: 1.9;
+}
+
+
+
+
+
 .avatar img {
-	height: 50px;
+	height: 38px;
+	margin-bottom: 1em;
 	border-radius: 50% !important;
-	box-shadow: 0rem 0rem 1rem 8px var(--link-water);
+	box-shadow: 0rem 0rem 1rem 6px #ced4f6;
 }
 
 
