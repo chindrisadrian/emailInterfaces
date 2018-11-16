@@ -1,0 +1,87 @@
+{
+	"inbox": {
+		"email": [
+			{
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": true,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "2018-10-24 14:04:12.000000",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": false,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "2018-10-24 14:04:12.000000",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": true,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "2018-10-24 14:04:12.000000",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": false,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "2018-10-24 14:04:12.000000",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": true,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "2018-10-24 14:04:12.000000",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": false,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "2018-10-24 14:04:12.000000",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": true,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "2018-10-24 14:04:12.000000",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": false,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "2018-10-24 14:04:12.000000",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": true,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "2018-10-24 14:04:12.000000",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			}
+		]
+	}
+}
