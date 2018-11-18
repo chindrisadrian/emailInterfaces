@@ -1,84 +1,93 @@
 {
 	"inbox": {
-		"email": [
+		"emails": [
 			{
+				"id":1,
 				"name": "Andrei",
 				"recipient": "Mihai",
 				"markRead": true,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "2018-10-24 14:04:12.000000",
+				"date": "14:04",
 				"subject": "Company meeting",
 				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
+				"id":2,
+				"name": "Alex",
+				"recipient": "Mihai",
+				"markRead": false,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "14:04",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"id":3,
+				"name": "Bogdan",
+				"recipient": "Mihai",
+				"markRead": true,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "14:04",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"id":4,
+				"name": "Dan",
+				"recipient": "Mihai",
+				"markRead": false,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "14:04",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"id":5,
+				"name": "Andrei",
+				"recipient": "Mihai",
+				"markRead": true,
+				"sender": "adrian@chindrisadrian.com",
+				"date": "14:04",
+				"subject": "Company meeting",
+				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+			},
+			{
+				"id":6,
 				"name": "Andrei",
 				"recipient": "Mihai",
 				"markRead": false,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "2018-10-24 14:04:12.000000",
+				"date": "14:04",
 				"subject": "Company meeting",
 				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
+				"id":7,
 				"name": "Andrei",
 				"recipient": "Mihai",
 				"markRead": true,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "2018-10-24 14:04:12.000000",
+				"date": "14:04",
 				"subject": "Company meeting",
 				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
+				"id":8,
 				"name": "Andrei",
 				"recipient": "Mihai",
 				"markRead": false,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "2018-10-24 14:04:12.000000",
+				"date": "14:04",
 				"subject": "Company meeting",
 				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
+				"id":9,
 				"name": "Andrei",
 				"recipient": "Mihai",
 				"markRead": true,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "2018-10-24 14:04:12.000000",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
-			},
-			{
-				"name": "Andrei",
-				"recipient": "Mihai",
-				"markRead": false,
-				"sender": "adrian@chindrisadrian.com",
-				"date": "2018-10-24 14:04:12.000000",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
-			},
-			{
-				"name": "Andrei",
-				"recipient": "Mihai",
-				"markRead": true,
-				"sender": "adrian@chindrisadrian.com",
-				"date": "2018-10-24 14:04:12.000000",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
-			},
-			{
-				"name": "Andrei",
-				"recipient": "Mihai",
-				"markRead": false,
-				"sender": "adrian@chindrisadrian.com",
-				"date": "2018-10-24 14:04:12.000000",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
-			},
-			{
-				"name": "Andrei",
-				"recipient": "Mihai",
-				"markRead": true,
-				"sender": "adrian@chindrisadrian.com",
-				"date": "2018-10-24 14:04:12.000000",
+				"date": "14:04",
 				"subject": "Company meeting",
 				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			}
