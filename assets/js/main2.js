@@ -5,13 +5,13 @@ $.getJSON('test.json').done(function (json) {
 });
 
 var renderEmails = (function() {
-
 	function initialization(inbox) {
 		render(inbox);
 		emailContent(inbox);
 		
+		textTemplate: _.template( $('#email_content').load('templates/email_content.html') ),
+	console.log(textTemplate);
 
-		
 	}
 
 	function render(inbox) {

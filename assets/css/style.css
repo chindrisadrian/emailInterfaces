@@ -9,11 +9,6 @@ body {
 	color: var(--grey);
 }
 
-
-.container {
-	box-shadow: 0px 0px 100px rgba(147, 155, 176, 0.55);
-}
-
 .fas {
 	padding: 0 8px;
 	color: var(--grey);

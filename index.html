@@ -3,60 +3,28 @@
 
 <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/assets/css/style.css">
 <!--fontawesome-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <!--bootstrap-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 <body>
-	<div class="container">
+	<div class="container shadow-lg">
 		<div class="row">
 			<div class="actions col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-12">
-				<div class="d-flex justify-content-center align-items-center title">Mail message</div>
-				<a href="#" class="d-flex justify-content-start align-items-center createEmail"><span><i class="fas fa-pen"></i>Create email</span></a>
-				<a href="#" class="d-flex justify-content-start align-items-center inbox active"><span><i class="fas fa-envelope"></i>Inbox</span></a>
-				<a href="#" class="d-flex justify-content-start align-items-center contacts"><span><i class="fas fa-user-alt"></i>Contacts</span></a>
-				<a href="#" class="d-flex justify-content-start align-items-center sent"><span><i class="fas fa-check-circle"></i>Sent</span></a>
-				<a href="#" class="d-flex justify-content-start align-items-center draft"><span><i class="fas fa-envelope-open-text"></i>Drafts</span></a>
-				<a href="#" class="d-flex justify-content-start align-items-center delete"><span><i class="fas fa-times-circle"></i>Deleted</span></a>
+				
 			</div>
 			<div class="emails col-xl-4 col-lg-4 col-md-8 col-sm-8 col-xs-12">
-				<div class="title d-flex justify-content-between align-items-center border-bottom">
-				</div>
-				<div class="emails-items align-item-center scrollbar">
-					
+				<div class="title d-flex justify-content-between align-items-center border-bottom"></div>
+				<div class="emails-items align-item-center scrollbar">					
 				</div>
 			</div>
-			<div class="email-content col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<div class="d-flex justify-content-between align-items-center">
-					<div class="avatar"><img src="avatar.jpg"></div>
-					<form class="form-inline">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-					</form>
-				</div>
-				<div class="d-flex justify-content-between align-items-center">
-					<h6 class="subject "><strong>Subject: Bla bla bla</strong></h6>
-					<div class="email-actions">
-						<a href="#"><span><i class="fas fa-reply"></i></span></a>
-						<a href="#"><span><i class="fas fa-share"></i></span></a>
-						<a href="#"><span><i class="fas fa-trash-alt"></i></span></a>
-						<a href="#"><span><i class="fas fa-chevron-left"></i></span></a>
-						<a href="#"><span><i class="fas fa-chevron-right"></i></span></a>
-					</div>
-				</div>
-				<div class="email-details">
-					<div class="sender">Sender: <strong>adrian.chindris@chindrisadrian.com</strong></div>
-					<div class="time">Time: 13:00 pm March 7, 2016</div>
-					<div class="addressee">Addressee: <strong>Adrian</strong></div>
-				</div>
-				<div class="email-message border-bottom">Salut Adrian<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum.</div>
-			</div>
+			<div class="email-content col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12"></div>
 		</div>
 	</div>
-<script type="text/javascript" src="main.js"></script>
+	<script src="/assets/js/vendor/text.js"></script>
+	<script data-main="app" src="/assets/js/vendor/require.js"></script>
 </body>
 </html>
 
