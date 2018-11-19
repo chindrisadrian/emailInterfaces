@@ -1,7 +1,8 @@
 define([
     'text!templates/actions/actions.html',
-    'text!templates/email_content/email_content.html'
-], function(actionsTemplate, emailContentTemplate) {
+    'text!templates/email_content/email_content.html',
+    'text!templates/emails/emails.html'
+], function(actionsTemplate, emailContentTemplate, emailsTemplate) {
 
     $.getJSON('assets/test.json').done(function (json) {
         initialization(json.inbox.emails);
@@ -24,16 +25,8 @@ define([
 	function render(emails) {
 		var html;
 		_.each(emails, function(email) {
-			html = 
-			'<div class="border-bottom item" data-id="'+ email.id +'">'+
-				'<div class="d-flex justify-content-between">'+
-					'<h4 class="name">'+ email.name +'</h4>'+
-					'<div class="hour"><span><i class="'+ (email.markRead ? 'fas fa-envelope-open' : 'fas fa-envelope text-success-2') +'"></i>'+ email.date +'</span></div>' +
-				'</div>'+
-				'<h6 class="subject">'+ email.subject +'</h6>'+
-				'<div class="message">'+ email.message +'</div>'+
-			'</div>'
-			$('.emails .emails-items').append(html)
+			var $emails = $('.emails-items');
+			$emails.append(_.template(emailsTemplate)({id: email.id, name: email.name, markRead: email.markRead, date: email.date, subject: email.subject, message:email.message}));	
 		});
 		
 		var title =
@@ -60,7 +53,10 @@ define([
         var $emailContent = $('.email-content');
 		$('.item:not(".title")').click(function (event) {
 			$(event.currentTarget).addClass('active').siblings().removeClass('active');
-			var email = _.find(emails, {id: $(event.currentTarget).data('id')});
+			console.log(emails);
+			var $id = $(event.currentTarget).data('id');
+			var email = _.find(emails, {id: $id});
+			console.log($id);
             $emailContent.html(_.template(emailContentTemplate)({ subject: email.subject, sender: email.sender, time: email.date, addressee: email.name, message: email.message }));
 		});
 	}

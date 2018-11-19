@@ -1,8 +1,8 @@
-<div class="border-bottom item" data-id="'+ email.id +'">
+<div class="border-bottom item" data-id="<%=id%>">
     <div class="d-flex justify-content-between">
-        <h4 class="name">'+ email.name +'</h4>
-        <div class="hour"><span><i class="'+ (email.markRead ? 'fas fa-envelope-open' : 'fas fa-envelope text-success-2') +'"></i>'+ email.date +'</span></div>
+        <h4 class="name"><%=name%></h4>
+        <div class="hour"><span><i class="'<%(markRead ? 'fas fa-envelope-open' : 'fas fa-envelope text-success-2')%>"></i><%=date%></span></div>
     </div>
-    <h6 class="subject">'+ email.subject +'</h6>
-    <div class="message">'+ email.message +'</div>
+    <h6 class="subject"><%=subject%></h6>
+    <div class="message"><%=message%></div>
 </div>
