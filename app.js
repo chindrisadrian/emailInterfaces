@@ -1,9 +1,9 @@
 requirejs.config({
-    baseUrl: 'assets',
+    baseUrl: 'assets/js/',
     paths: {
         app: '../',
-        'text': 'js/vendor/text'
+        'text': 'vendor/require.text'
     }
 });
 
-requirejs(['js/main']);
+requirejs(['main']);

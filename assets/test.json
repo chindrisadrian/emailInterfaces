@@ -6,10 +6,10 @@
 				"name": "Andrei",
 				"recipient": "Mihai",
 				"markRead": true,
-				"sender": "adrian@chindrisadrian.com",
-				"date": "14:04",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+				"sender": "adrian@test5.com",
+				"date": "14:00",
+				"subject": "Day 0",
+				"message": "Day asd f Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
 				"id":2,
@@ -17,29 +17,29 @@
 				"recipient": "Mihai",
 				"markRead": false,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "14:04",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+				"date": "14:01",
+				"subject": "Day 1",
+				"message": "asdfas d Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
 				"id":3,
 				"name": "Bogdan",
 				"recipient": "Mihai",
 				"markRead": true,
-				"sender": "adrian@chindrisadrian.com",
-				"date": "14:04",
+				"sender": "adrian@test3.com",
+				"date": "14:02",
 				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+				"message": "adsf as f Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
 				"id":4,
 				"name": "Dan",
 				"recipient": "Mihai",
 				"markRead": false,
-				"sender": "adrian@chindrisadrian.com",
-				"date": "14:04",
+				"sender": "adrian@test1.com",
+				"date": "14:03",
 				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+				"message": "asdfasd Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
 				"id":5,
@@ -48,8 +48,8 @@
 				"markRead": true,
 				"sender": "adrian@chindrisadrian.com",
 				"date": "14:04",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+				"subject": "Day 5",
+				"message": "asdfas f dasfas dfa Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
 				"id":6,
@@ -57,9 +57,9 @@
 				"recipient": "Mihai",
 				"markRead": false,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "14:04",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+				"date": "14:05",
+				"subject": "Company sadf",
+				"message": "asdfasdf23f2c 232bDFFFFF ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
 				"id":7,
@@ -67,9 +67,9 @@
 				"recipient": "Mihai",
 				"markRead": true,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "14:04",
+				"date": "14:06",
 				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+				"message": "FFFFFFF ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
 				"id":8,
@@ -77,9 +77,9 @@
 				"recipient": "Mihai",
 				"markRead": false,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "14:04",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+				"date": "14:07",
+				"subject": "Company asdf2",
+				"message": "asdf3f23 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			},
 			{
 				"id":9,
@@ -87,9 +87,9 @@
 				"recipient": "Mihai",
 				"markRead": true,
 				"sender": "adrian@chindrisadrian.com",
-				"date": "14:04",
-				"subject": "Company meeting",
-				"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
+				"date": "14:08",
+				"subject": "Company 324234",
+				"message": "2 3f  2f23f 232 fLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum."
 			}
 		]
 	}

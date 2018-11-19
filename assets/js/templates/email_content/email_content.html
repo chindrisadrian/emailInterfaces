@@ -1,12 +1,12 @@
 <div class="d-flex justify-content-between align-items-center">
-    <div class="avatar"><img src="avatar.jpg"></div>
+    <div class="avatar"><img src="/assets/img/avatar.jpg"></div>
     <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
 </div>
 <div class="d-flex justify-content-between align-items-center">
-    <h6 class="subject "><strong>Subject: Bla bla bla</strong></h6>
+    <h6 class="subject "><strong>Subject: <%=subject%></strong></h6>
     <div class="email-actions">
         <a href="#"><span><i class="fas fa-reply"></i></span></a>
         <a href="#"><span><i class="fas fa-share"></i></span></a>
@@ -16,8 +16,8 @@
     </div>
 </div>
 <div class="email-details">
-    <div class="sender">Sender: <strong>adrian.chindris@chindrisadrian.com</strong></div>
-    <div class="time">Time: 13:00 pm March 7, 2016</div>
-    <div class="addressee">Addressee: <strong>Adrian</strong></div>
+    <div class="sender">Sender: <strong><%=sender%></strong></div>
+    <div class="time">Time: <%=time%></div>
+    <div class="addressee">Addressee: <strong><%=addressee%></strong></div>
 </div>
-<div class="email-message border-bottom">Salut Adrian<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in risus non arcu tempor faucibus a et neque. In in maximus quam. Suspendisse non nulla id ex aliquet cursus vitae ut arcu. Nunc posuere nulla at ex scelerisque vestibulum.</div>
+<div class="email-message border-bottom"><%=message%></div>
